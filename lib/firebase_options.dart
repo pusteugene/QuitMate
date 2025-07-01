@@ -22,29 +22,29 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'YOUR_WEB_API_KEY',
-    appId: 'YOUR_WEB_APP_ID',
-    messagingSenderId: 'YOUR_WEB_MESSAGING_SENDER_ID',
-    projectId: 'YOUR_PROJECT_ID',
-    authDomain: 'YOUR_PROJECT_ID.firebaseapp.com',
-    storageBucket: 'YOUR_PROJECT_ID.appspot.com',
-    measurementId: 'YOUR_MEASUREMENT_ID',
+    apiKey: 'AIzaSyCJucHXbr4USJ2CthAXAZbcwk7Z27Izc9Y',
+    appId: '1:410039626889:web:5258ae07465a05071d6a58',
+    messagingSenderId: '410039626889',
+    projectId: 'quitmate-app-a21a9',
+    authDomain: 'quitmate-app-a21a9.firebaseapp.com',
+    storageBucket: 'quitmate-app-a21a9.firebasestorage.app',
+    measurementId: 'G-V7SG91NTK3',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'YOUR_ANDROID_API_KEY',
-    appId: 'YOUR_ANDROID_APP_ID',
-    messagingSenderId: 'YOUR_ANDROID_MESSAGING_SENDER_ID',
-    projectId: 'YOUR_PROJECT_ID',
-    storageBucket: 'YOUR_PROJECT_ID.appspot.com',
+    apiKey: 'AIzaSyCJucHXbr4USJ2CthAXAZbcwk7Z27Izc9Y',
+    appId: '1:410039626889:android:c017ef553404fa961d6a58',
+    messagingSenderId: '410039626889',
+    projectId: 'quitmate-app-a21a9',
+    storageBucket: 'quitmate-app-a21a9.firebasestorage.app',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'YOUR_IOS_API_KEY',
-    appId: 'YOUR_IOS_APP_ID',
-    messagingSenderId: 'YOUR_IOS_MESSAGING_SENDER_ID',
-    projectId: 'YOUR_PROJECT_ID',
-    storageBucket: 'YOUR_PROJECT_ID.appspot.com',
+    apiKey: 'AIzaSyCJucHXbr4USJ2CthAXAZbcwk7Z27Izc9Y',
+    appId: '1:410039626889:ios:0157d4f7b9abef031d6a58',
+    messagingSenderId: '410039626889',
+    projectId: 'quitmate-app-a21a9',
+    storageBucket: 'quitmate-app-a21a9.firebasestorage.app',
     iosBundleId: 'com.example.quitmate',
   );
 }
